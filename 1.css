@@ -658,7 +658,7 @@ span.time{
 	color:red;
 	font-weight: 600;
 }
-@media(max-width: 750px){
+@media(max-width:576px){
 	#testimonials-card .carousel-caption h2 {
    
     font-size: 19px;
