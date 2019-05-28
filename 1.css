@@ -334,8 +334,10 @@ div#timeline-education {
 }
 .skillbar-title {
     position: absolute;
-    top: -19px;
+    top: -26px;
     font-size: 11px;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .skill-bar-percent {
@@ -367,20 +369,12 @@ div#timeline-education {
 		width:80%;
 	}
 }
-@-webkit-keyframes dai70{
-	from{
-		width:0%;
-	}
-	to{
-		width:70%;
-	}
-}
 @-webkit-keyframes dai60{
 	from{
 		width:0%;
 	}
 	to{
-		width:60%;
+		width:50%;
 	}
 }
 @-webkit-keyframes dai50{
@@ -388,7 +382,15 @@ div#timeline-education {
 		width:0%;
 	}
 	to{
-		width:60%;
+		width:40%;
+	}
+}
+@-webkit-keyframes dai40{
+	from{
+		width:0%;
+	}
+	to{
+		width:35%;
 	}
 }
 .skillbar-bar.dai95{
@@ -403,16 +405,16 @@ div#timeline-education {
 	animation: dai90 2s forwards;
 	animation-delay: 2s;
 }
-.skillbar-bar.dai70{
-	animation: dai70 2s forwards;
-	animation-delay: 2s;
-}
 .skillbar-bar.dai60{
 	animation: dai60 2s forwards;
 	animation-delay: 2s;
 }
 .skillbar-bar.dai50{
 	animation: dai50 2s forwards;
+	animation-delay: 2s;
+}
+.skillbar-bar.dai40{
+	animation: dai40 2s forwards;
 	animation-delay: 2s;
 }
 
@@ -423,6 +425,7 @@ div#timeline-education {
     width: 90%;
     background: white;
     animation: dai90 2s forwards;
+    
 
 }
 #skills-card .card-content{
@@ -445,6 +448,9 @@ div#timeline-education {
 	list-style: none
 }
 @media screen and (max-width: 767px){
+	#contact .contact-right iframe{
+		width: 250px;
+	}
 	#v-card-holder #v-card{
 		padding-top: 30px;
 		padding:10px;
@@ -504,6 +510,10 @@ padding: 5px;
 .timeline-block .timeline-dot {
     left: 82%;
     } 
+    #testimonials-card .carousel-caption h2 {
+    font-style: italic;
+    font-size: 15px;
+}
 }
 #portfolios ul.nav.nav-tabs li {
     float: left;
@@ -568,6 +578,10 @@ padding: 5px;
     box-shadow: 0 2px 5px 0;
     padding: 40px;
     background: #fff;
+    /* color: green; */
+}
+#contact .contact-left p {
+	font-weight: 600;
 }
 footer {
     padding: 10px;
@@ -576,7 +590,9 @@ footer {
 }
 #contact .contact-left i {
     padding-right: 10px;
+    font-weight: 600;
     font-size: 17px;
+    /* color: green; */
 }
 #testimonials-card .carousel-caption h2 {
    
@@ -657,10 +673,4 @@ span.vitri {
 span.time{
 	color:red;
 	font-weight: 600;
-}
-@media(max-width:576px){
-	#testimonials-card .carousel-caption h2 {
-   
-    font-size: 19px;
-}
 }
