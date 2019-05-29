@@ -673,3 +673,6 @@ span.time{
 	color:red;
 	font-weight: 600;
 }
+.skillbar-title span{
+	font-weight: bold;
+}
