@@ -422,10 +422,7 @@ div#timeline-education {
 .skillbar-bar {
     position: absolute;
     height: 4px;
-    /*width: 90%;*/
     background: white;
-    /*animation: dai90 2s forwards;*/
-   
 }
 #skills-card .card-content{
 	padding:40px;
