@@ -374,7 +374,7 @@ div#timeline-education {
 		width:0%;
 	}
 	to{
-		width:50%;
+		width:40%;
 	}
 }
 @-webkit-keyframes dai50{
@@ -422,9 +422,9 @@ div#timeline-education {
 .skillbar-bar {
     position: absolute;
     height: 4px;
-    width: 90%;
+    /*width: 90%;*/
     background: white;
-    animation: dai90 2s forwards;
+    /*animation: dai90 2s forwards;*/
    
 }
 #skills-card .card-content{
